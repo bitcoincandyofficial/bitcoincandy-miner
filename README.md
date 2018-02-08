@@ -10,7 +10,7 @@ bitcoin candy cuda miner
 [Download Linux CDY AMD Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/blob/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.-.LINUX.zip)
 
 Writen for pascal gpus but works on cards with at least 1Gb memory, and Compute Capability 3 and higher.
-Miner contain dev fee 2%.
+Miner contain dev fee 1%.
 
 History:
 Version 0.0.1 - CDY
