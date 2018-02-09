@@ -24,7 +24,8 @@ There are several ways to get your own wallet.
 
 [Download Linux CDY AMD Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/blob/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.-.LINUX.zip)
 
-3.
+
+3.notice
 
 (1)Make sure you download the right edition program.
 
