@@ -25,7 +25,7 @@
 [下载 Linux  AMD 挖矿程序](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.-.LINUX.zip)
 
 
-3.使用步骤1中获取的地址替换挖矿程序中配置文件的地址，运行挖矿程序一般运行脚本程序(windows下start-CDY.bat或linux下start-bitcoin-candy.sh)  
+3.使用步骤1中获取的钱包地址替换挖矿脚本程序中的钱包地址，运行挖矿程序一般运行脚本程序(windows下start-CDY.bat或linux下start-bitcoin-candy.sh)  
 如脚本start-CDY.bat中
 miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker --pass x --port 3857
 请将CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF替换为自己的CDY钱包地址，修改后直击双击脚本运行即可。
@@ -59,11 +59,13 @@ How to run a bitcoincandy miner program?
 
 1.Get your own wallet address
 
-There are several ways to get your own wallet.
+There are several ways to gain your own CDY wallet address.
 
-(1)charge address from exchange platform (coinex.com will support soon)
+(1)Sign up for a digital coin exchange and acquire a CDY wallet address  (such as CoinEX, btc-alpha, for more supported exchange, go to https://cdy.one)
+(you can sign up for CoinEX by following link: https://www.coinex.com/account/signup?refer_code=p3udv)
 
-(2)Mobile phone light wallet address (bitpie mobile wallet will support soon)
+(2)Download Bitpie Mobile phone wallet, open this app and change your coin to CDY(at upper-left corner), and get a CDY address.
+(download Bitpie app at http://bitpie.com/).
 
 (3)run our full node wallet and get an address.(https://github.com/bitcoincandyofficial/bitcoincandy/files/1707921/bitcoincandy-windows-exe.zip)
 
@@ -72,24 +74,29 @@ There are several ways to get your own wallet.
 
 2. Choose the right edition miner program to download according your computer 
 
-[Download Windows CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/blob/master/BitcoinCandy-nVidia.miner.0.3.4b.windows.zip)
+[Download Windows CDY nVidia Miner](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/BitcoinCandy-nVidia.miner.0.3.4b.windows.zip)
 
-[Download Linux CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/blob/master/Bitcoin-Candy-nVidia.miner.0.3.4b.Linux.Bin.zip)
+[Download Linux CDY nVidia Miner](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/Bitcoin-Candy-nVidia.miner.0.3.4b.Linux.Bin.zip)
 
-[Download Windows CDY AMD Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/blob/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.zip)
+[Download Windows CDY AMD Miner](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.zip)
 
-[Download Linux CDY AMD Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/blob/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.-.LINUX.zip)
+[Download Linux CDY AMD Miner](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.-.LINUX.zip)
 
+3.Replace the wallet address in your miner's script(for windows, it's start-CDY.bat; for linux, it's start-bitcoin-candy.sh) with the address you acquire at step 1.
+e.g, in start-CDY.bat: miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker --pass x --port 3857
+Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then save the file and double-click to run it.
 
-3.notice
+4.notice
 
 (1)Make sure you download the right edition program.
 
-(2)Make sure  your graphics driver  is the newest.
+(2)Make sure  your graphics driver  is the newest(otherwise, unexpectedly quits will happen).
 
 (3)Some anti-virus software will consider the miner program as a virus.You should add the software to whitelist or turn off the anti-virus software first.
 
-(4)To get more detail instruction,see the BItcoinCandyMiningReadme.docx or BitcoinCandy挖矿说明.docx
+(4)Open your miner by command line in your current directory when encountering a problem and you are not sure what it is.
+
+(5)To get more detail instruction,see the BItcoinCandyMiningReadme.docx or BitcoinCandy挖矿说明.docx
 
 
 
