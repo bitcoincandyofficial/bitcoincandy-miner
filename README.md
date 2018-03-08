@@ -27,7 +27,9 @@
 
 3.使用步骤1中获取的钱包地址替换挖矿脚本程序中的钱包地址，运行挖矿程序一般运行脚本程序(windows下start-CDY.bat或linux下start-bitcoin-candy.sh)  
 如脚本start-CDY.bat中
+
 miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker --pass x --port 3857
+
 请将CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF替换为自己的CDY钱包地址，修改后直击双击脚本运行即可。
 
 
@@ -83,7 +85,9 @@ There are several ways to gain your own CDY wallet address.
 [Download Linux CDY AMD Miner](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.-.LINUX.zip)
 
 3.Replace the wallet address in your miner's script(for windows, it's start-CDY.bat; for linux, it's start-bitcoin-candy.sh) with the address you acquire at step 1.
+
 e.g, in start-CDY.bat: miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker --pass x --port 3857
+
 Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then save the file and double-click to run it.
 
 4.notice
