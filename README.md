@@ -48,12 +48,47 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
 (5)了解更多详情可参考文档 BItcoinCandyMiningReadme.docx 或 BitcoinCandy挖矿说明.docx
 
 
+5.其他挖矿客户端
+其他挖矿客户端包括DTSM和Bminer,亲测过Bminer，挖矿速度提升7%左右。
+
+[Bminer挖矿客户端下载](https://www.bminer.me/releases/)
+ 
+Linux
+修改mine.sh脚本，示例如下：
+#!/bin/sh
+
+# Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
+ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
+
+# 你的矿工名myworker，可随意修改
+USERNAME=$ADDRESS.myworker 
+# 修改矿池地址
+POOL=pool.cdy.one:3857
+SCHEME=stratum
+
+./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880
+
+修改后运行mine.sh 
 
 
+Windows
+修改mine.bat  
+@echo OFF
 
+REM Change the following address to your Zcash taddr.
+# Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
+SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
+# 你的矿工名myworker，可随意修改
+SET USERNAME=%ADDRESS%.myworker 
+# 修改矿池地址
+SET POOL=pool.cdy.one:3857
 
+SET SCHEME=stratum
 
+START "Bminer: When Crypto-mining Made Fast" bminer.exe -uri %SCHEME%://%USERNAME%@%POOL% -api 127.0.0.1:1880
+
+修改后运行mine.bat
 
 
 # bitcoincandy-miner
@@ -102,6 +137,47 @@ Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then sa
 
 (5)To get more detail instruction,see the BItcoinCandyMiningReadme.docx or BitcoinCandy挖矿说明.docx
 
+5.Other mining clients
+Other Mining clients include DTSM and Bminer,we have tested Bminer and we can get around 7% extra hash power。
+
+[Download Bminer](https://www.bminer.me/releases/)
+ 
+Linux
+Edit mine.sh, see the following sample：
+#!/bin/sh
+
+# Change the following address to your CDY taddr.  
+ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
+
+# change your worker name. 
+USERNAME=$ADDRESS.myworker 
+# Change your pool address
+POOL=pool.cdy.one:3857
+SCHEME=stratum
+
+./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880
+
+Run mine.sh 
+
+
+Windows
+Edit mine.bat  
+@echo OFF
+
+REM Change the following address to your Zcash taddr.
+# Change the following address to your CDY taddr.  
+SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
+
+# change your worker name.
+SET USERNAME=%ADDRESS%.myworker 
+# Change your pool address
+SET POOL=pool.cdy.one:3857
+
+SET SCHEME=stratum
+
+START "Bminer: When Crypto-mining Made Fast" bminer.exe -uri %SCHEME%://%USERNAME%@%POOL% -api 127.0.0.1:1880
+
+Run mine.bat
 
 
 Writen for pascal gpus but works on cards with at least 1Gb memory, and Compute Capability 3 and higher.
@@ -110,4 +186,5 @@ Miner contain dev fee 1%.
 History:
 Version 0.0.1 - CDY
 - Added support for Bitcoincandy
+
 
