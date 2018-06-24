@@ -58,11 +58,15 @@ Linux
 #!/bin/sh
 
 #Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
+
 ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
 #你的矿工名myworker，可随意修改
+
 USERNAME=$ADDRESS.myworker 
+
 #修改矿池地址
+
 POOL=pool.cdy.one:3857
 SCHEME=stratum
 
@@ -81,9 +85,11 @@ REM Change the following address to your Zcash taddr.
 SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
 #你的矿工名myworker，可随意修改
+
 SET USERNAME=%ADDRESS%.myworker 
 
 #修改矿池地址
+
 SET POOL=pool.cdy.one:3857
 
 SET SCHEME=stratum
@@ -149,12 +155,15 @@ Edit mine.sh, see the following sample：
 #!/bin/sh
 
 #Change the following address to your CDY taddr.  
+
 ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
 #change your worker name. 
+
 USERNAME=$ADDRESS.myworker 
 
 #Change your pool address
+
 POOL=pool.cdy.one:3857
 SCHEME=stratum
 
@@ -170,12 +179,15 @@ Edit mine.bat
 REM Change the following address to your Zcash taddr.
 
 #Change the following address to your CDY taddr.  
+
 SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
 #change your worker name.
+
 SET USERNAME=%ADDRESS%.myworker 
 
 #Change your pool address
+
 SET POOL=pool.cdy.one:3857
 
 SET SCHEME=stratum
