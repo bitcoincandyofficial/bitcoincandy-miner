@@ -57,12 +57,12 @@ Linux
 修改mine.sh脚本，示例如下：
 #!/bin/sh
 
-# Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
+#Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
 ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
-# 你的矿工名myworker，可随意修改
+#你的矿工名myworker，可随意修改
 USERNAME=$ADDRESS.myworker 
-# 修改矿池地址
+#修改矿池地址
 POOL=pool.cdy.one:3857
 SCHEME=stratum
 
@@ -76,12 +76,14 @@ Windows
 @echo OFF
 
 REM Change the following address to your Zcash taddr.
-# Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
+
+#Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
 SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
-# 你的矿工名myworker，可随意修改
+#你的矿工名myworker，可随意修改
 SET USERNAME=%ADDRESS%.myworker 
-# 修改矿池地址
+
+#修改矿池地址
 SET POOL=pool.cdy.one:3857
 
 SET SCHEME=stratum
@@ -146,12 +148,13 @@ Linux
 Edit mine.sh, see the following sample：
 #!/bin/sh
 
-# Change the following address to your CDY taddr.  
+#Change the following address to your CDY taddr.  
 ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
-# change your worker name. 
+#change your worker name. 
 USERNAME=$ADDRESS.myworker 
-# Change your pool address
+
+#Change your pool address
 POOL=pool.cdy.one:3857
 SCHEME=stratum
 
@@ -165,12 +168,14 @@ Edit mine.bat
 @echo OFF
 
 REM Change the following address to your Zcash taddr.
-# Change the following address to your CDY taddr.  
+
+#Change the following address to your CDY taddr.  
 SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
 
-# change your worker name.
+#change your worker name.
 SET USERNAME=%ADDRESS%.myworker 
-# Change your pool address
+
+#Change your pool address
 SET POOL=pool.cdy.one:3857
 
 SET SCHEME=stratum
