@@ -51,12 +51,17 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
 5. 2018-09-01左右，将对POW进行一次升级(Equihash 144.5)，将使用新的客户端
 
 NVIDIA 
+
 [下载 Windows nVidia 挖矿程序 mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
+
 [下载 Linux nVidia 挖矿程序 mega] (https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
+
 [下载 Windows nVidia 挖矿程序 google] (https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
+
 [下载 Linux nVidia 挖矿程序 google] (https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
  
 对于nVidia的挖矿教程可参考如下链接:
+
 [nVidia挖矿教程] (https://bitcointalk.org/index.php?topic=4466962.0)
 
 除了按照上述教程步骤外，挖矿选项还需要增加选项  --pers CandyPow, 如Linux下挖矿程序运行：
@@ -65,7 +70,9 @@ NVIDIA
 也可在miner.cfg文件中配置
 
 AMD
+
 [下载 Windows AMD挖矿程序](https://www.dropbox.com/s/j94xuholx9wk1z1/lolMiner-144_v038_Win64.zip?dl=1)
+
 [下载 Linux AMD挖矿程序](https://www.dropbox.com/s/hpvtrwpt89bgw6e/lolMiner-144_v038_Lin64.tar.gz?dl=1)
 
 [AMD挖矿教程] (https://bitcointalk.org/index.php?topic=4591317)
@@ -122,12 +129,17 @@ Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then sa
 5. POW will be upgraded as Equihash 144.5 around 2018-09-01，make sure you use the following mining client to mine CDY:
 
 NVIDIA 
+
 [Dowload Windows nVidia miner mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
+
 [Dowload Linux nVidia miner mega] (https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
+
 [Download Windows nVidia miner google] (https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
+
 [Download Linux nVidia miner google] (https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
  
 Use following instruction to start:
+
 [nVidia Tutorial] (https://bitcointalk.org/index.php?topic=4466962.0)
 
 Besides following the tutorial above， to mine CDY， you need add a extra mining option: --pers CandyPow 
@@ -137,7 +149,9 @@ For example, to mine CDY under Linux, you can run following command line:
 You can also configure pers(CandyPow) in miner.cfg
 
 AMD
+
 [Download Windows AMD miner](https://www.dropbox.com/s/j94xuholx9wk1z1/lolMiner-144_v038_Win64.zip?dl=1)
+
 [Download Linux AMD miner](https://www.dropbox.com/s/hpvtrwpt89bgw6e/lolMiner-144_v038_Lin64.tar.gz?dl=1)
 
 [AMD Tutorial] (https://bitcointalk.org/index.php?topic=4591317)
