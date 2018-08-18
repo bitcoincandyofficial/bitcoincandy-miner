@@ -14,7 +14,7 @@
 
 
 
-2. 根据你电脑型号选择合适的挖矿程序 
+2. 根据你电脑型号选择合适的挖矿程序(2018-09-01号后，由于pow的更改，请使用新的挖矿客户端)
 
 [下载 Windows  nVidia 挖矿程序](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/BitcoinCandy-nVidia.miner.0.3.4b.windows.zip)
 
@@ -48,55 +48,29 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
 (5)了解更多详情可参考文档 BItcoinCandyMiningReadme.docx 或 BitcoinCandy挖矿说明.docx
 
 
-5.其他挖矿客户端
-其他挖矿客户端包括DTSM和Bminer,亲测过Bminer，挖矿速度提升7%左右。
+5. 2018-09-01左右，将对POW进行一次升级(Equihash 144.5)，将使用新的客户端
 
-[Bminer挖矿客户端下载](https://www.bminer.me/releases/)
+NVIDIA 
+[下载 Windows nVidia 挖矿程序 mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
+[下载 Linux nVidia 挖矿程序 mega] (https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
+[下载 Windows nVidia 挖矿程序 google] (https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
+[下载 Linux nVidia 挖矿程序 google] (https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
  
-Linux
-修改mine.sh脚本，示例如下：
-#!/bin/sh
+对于nVidia的挖矿教程可参考如下链接:
+[nVidia挖矿教程] (https://bitcointalk.org/index.php?topic=4466962.0)
 
-#Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
+除了按照上述教程步骤外，挖矿选项还需要增加选项  --pers CandyPow, 如Linux下挖矿程序运行：
+./miner --algo 144_5 --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
-ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
+也可在miner.cfg文件中配置
 
-#你的矿工名myworker，可随意修改
+AMD
+[下载 Windows AMD挖矿程序](https://www.dropbox.com/s/j94xuholx9wk1z1/lolMiner-144_v038_Win64.zip?dl=1)
+[下载 Linux AMD挖矿程序](https://www.dropbox.com/s/hpvtrwpt89bgw6e/lolMiner-144_v038_Lin64.tar.gz?dl=1)
 
-USERNAME=$ADDRESS.myworker 
-
-#修改矿池地址
-
-POOL=pool.cdy.one:3857
-SCHEME=stratum
-
-./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880
-
-修改后运行mine.sh 
+[AMD挖矿教程] (https://bitcointalk.org/index.php?topic=4591317)
 
 
-Windows
-修改mine.bat  
-@echo OFF
-
-REM Change the following address to your Zcash taddr.
-
-#Change the following address to your CDY taddr.  将如下地址改成你的CDY钱包地址
-SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
-
-#你的矿工名myworker，可随意修改
-
-SET USERNAME=%ADDRESS%.myworker 
-
-#修改矿池地址
-
-SET POOL=pool.cdy.one:3857
-
-SET SCHEME=stratum
-
-START "Bminer: When Crypto-mining Made Fast" bminer.exe -uri %SCHEME%://%USERNAME%@%POOL% -api 127.0.0.1:1880
-
-修改后运行mine.bat
 
 
 # bitcoincandy-miner
@@ -145,63 +119,31 @@ Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then sa
 
 (5)To get more detail instruction,see the BItcoinCandyMiningReadme.docx or BitcoinCandy挖矿说明.docx
 
-5.Other mining clients
-Other Mining clients include DTSM and Bminer,we have tested Bminer and we can get around 7% extra hash power。
+5. POW will be upgraded as Equihash 144.5 around 2018-09-01，make sure you use the following mining client to mine CDY:
 
-[Download Bminer](https://www.bminer.me/releases/)
+NVIDIA 
+[Dowload Windows nVidia miner mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
+[Dowload Linux nVidia miner mega] (https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
+[Download Windows nVidia miner google] (https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
+[Download Linux nVidia miner google] (https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
  
-Linux
-Edit mine.sh, see the following sample：
-#!/bin/sh
+Use following instruction to start:
+[nVidia Tutorial] (https://bitcointalk.org/index.php?topic=4466962.0)
 
-#Change the following address to your CDY taddr.  
+Besides following the tutorial above， to mine CDY， you need add a extra mining option: --pers CandyPow 
+For example, to mine CDY under Linux, you can run following command line:
+./miner --algo 144_5 --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
-ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
+You can also configure pers(CandyPow) in miner.cfg
 
-#change your worker name. 
+AMD
+[Download Windows AMD miner](https://www.dropbox.com/s/j94xuholx9wk1z1/lolMiner-144_v038_Win64.zip?dl=1)
+[Download Linux AMD miner](https://www.dropbox.com/s/hpvtrwpt89bgw6e/lolMiner-144_v038_Lin64.tar.gz?dl=1)
 
-USERNAME=$ADDRESS.myworker 
-
-#Change your pool address
-
-POOL=pool.cdy.one:3857
-SCHEME=stratum
-
-./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880
-
-Run mine.sh 
-
-
-Windows
-Edit mine.bat  
-@echo OFF
-
-REM Change the following address to your Zcash taddr.
-
-#Change the following address to your CDY taddr.  
-
-SET ADDRESS=CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU
-
-#change your worker name.
-
-SET USERNAME=%ADDRESS%.myworker 
-
-#Change your pool address
-
-SET POOL=pool.cdy.one:3857
-
-SET SCHEME=stratum
-
-START "Bminer: When Crypto-mining Made Fast" bminer.exe -uri %SCHEME%://%USERNAME%@%POOL% -api 127.0.0.1:1880
-
-Run mine.bat
-
-
-Writen for pascal gpus but works on cards with at least 1Gb memory, and Compute Capability 3 and higher.
-Miner contain dev fee 1%.
+[AMD Tutorial] (https://bitcointalk.org/index.php?topic=4591317)
 
 History:
-Version 0.0.1 - CDY
+Version 0.0.2 - CDY
 - Added support for Bitcoincandy
 
 
