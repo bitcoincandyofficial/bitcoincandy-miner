@@ -156,6 +156,25 @@ AMD
 
 [AMD Tutorial] (https://bitcointalk.org/index.php?topic=4591317)
 
+example for user_config.json
+{
+	"DEFAULTS" : {
+		"PLATFORM"	      : "AUTO",
+		"DEVICES"	      : "AUTO"
+	},
+
+	"EXAMPLE1" :
+	{
+		"COIN" : "CDY",
+		"POOLS" : [
+			{"POOL" : "pool.cdy.one",
+			 "PORT" : "3857",
+			 "USER" : "CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.rig1",
+			 "PASS" : "x"}
+		]
+	}
+}
+
 History:
 Version 0.0.2 - CDY
 - Added support for Bitcoincandy
