@@ -68,7 +68,7 @@ NVIDIA
 
 ./miner --algo 144_5 --pers CandyPoW --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
-也可在miner.cfg文件中配置
+--pers也可在miner.cfg文件中配置
 
 AMD
 
@@ -148,7 +148,7 @@ For example, to mine CDY under Linux, you can run following command line:
 
 ./miner --algo 144_5 --pers CandyPoW --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
-You can also configure pers(CandyPoW) in miner.cfg
+You can also configure --pers(CandyPoW) in miner.cfg
 
 AMD
 
