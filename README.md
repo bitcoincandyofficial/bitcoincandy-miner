@@ -64,8 +64,9 @@ NVIDIA
 
 [nVidia挖矿教程] (https://bitcointalk.org/index.php?topic=4466962.0)
 
-除了按照上述教程步骤外，挖矿选项还需要增加选项  --pers CandyPow, 如Linux下挖矿程序运行：
-./miner --algo 144_5 --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
+除了按照上述教程步骤外，挖矿选项还需要增加选项  --pers CandyPoW, 如Linux下挖矿程序运行：
+
+./miner --algo 144_5 --pers CandyPoW --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
 也可在miner.cfg文件中配置
 
@@ -142,11 +143,12 @@ Use following instruction to start:
 
 [nVidia Tutorial] (https://bitcointalk.org/index.php?topic=4466962.0)
 
-Besides following the tutorial above， to mine CDY， you need add a extra mining option: --pers CandyPow 
+Besides following the tutorial above， to mine CDY， you need add a extra mining option: --pers CandyPoW 
 For example, to mine CDY under Linux, you can run following command line:
-./miner --algo 144_5 --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
-You can also configure pers(CandyPow) in miner.cfg
+./miner --algo 144_5 --pers CandyPoW --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
+
+You can also configure pers(CandyPoW) in miner.cfg
 
 AMD
 
