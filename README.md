@@ -35,6 +35,8 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
 
 注意：windows系统下如果要直接运行“.exe”程序，N卡请在“miner.cfg”文件中修改钱包地址(矿池地址，端口号使用默认即可)，A卡则是修改config.txt。
 
+
+
 4.注意
 
 (1)请根据您电脑的型号选择正确的版本.
@@ -48,9 +50,12 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
 (5)了解更多详情可参考文档 BItcoinCandyMiningReadme.docx 或 BitcoinCandy挖矿说明.docx
 
 
-5. 2018-09-01左右，将对POW进行一次升级(Equihash 144.5)，将使用新的客户端
 
-NVIDIA 
+# 5. 2018-09-01左右，将对POW进行一次升级(Equihash 144.5)，将使用新的客户端
+
+
+## NVIDIA 
+
 
 [下载 Windows nVidia 挖矿程序 mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
 
@@ -70,7 +75,7 @@ NVIDIA
 
 --pers也可在miner.cfg文件中配置
 
-AMD
+## AMD
 
 [下载 Windows AMD挖矿程序](https://www.dropbox.com/s/j94xuholx9wk1z1/lolMiner-144_v038_Win64.zip?dl=1)
 
@@ -109,11 +114,13 @@ There are several ways to gain your own CDY wallet address.
 
 [Download Linux CDY AMD Miner](https://raw.githubusercontent.com/bitcoincandyofficial/bitcoincandy-miner/master/Claymore.s.BitcoinCandy.AMD.GPU.Miner.v12.6.-.LINUX.zip)
 
+
 3.Replace the wallet address in your miner's script(for windows, it's start-CDY.bat; for linux, it's start-bitcoin-candy.sh) with the address you acquire at step 1.
 
 e.g, in start-CDY.bat: miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker --pass x --port 3857
 
 Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then save the file and double-click to run it.
+
 
 4.notice
 
@@ -127,9 +134,12 @@ Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then sa
 
 (5)To get more detail instruction,see the BItcoinCandyMiningReadme.docx or BitcoinCandy挖矿说明.docx
 
-5. POW will be upgraded as Equihash 144.5 around 2018-09-01，make sure you use the following mining client to mine CDY:
 
-NVIDIA 
+# 5. POW will be upgraded as Equihash 144.5 around 2018-09-01，make sure you use the following mining client to mine CDY:
+
+
+## NVIDIA 
+
 
 [Dowload Windows nVidia miner mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
 
@@ -150,7 +160,8 @@ For example, to mine CDY under Linux, you can run following command line:
 
 You can also configure --pers(CandyPoW) in miner.cfg
 
-AMD
+
+## AMD
 
 [Download Windows AMD miner](https://www.dropbox.com/s/j94xuholx9wk1z1/lolMiner-144_v038_Win64.zip?dl=1)
 
