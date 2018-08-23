@@ -167,7 +167,7 @@ You can also configure --pers(CandyPoW) in miner.cfg
 
 [Download Linux AMD miner](https://www.dropbox.com/s/hpvtrwpt89bgw6e/lolMiner-144_v038_Lin64.tar.gz?dl=1)
 
-[AMD Tutorial] (https://bitcointalk.org/index.php?topic=4591317)
+[AMD Tutorial](https://bitcointalk.org/index.php?topic=4591317)
 
 example for user_config.json
 {
