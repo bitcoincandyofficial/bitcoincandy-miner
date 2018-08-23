@@ -9,7 +9,7 @@
 
 (2)手机用户下载bitpie轻钱包，币种切换到CDY(客户端左上角选择币种)，地址： http://bitpie.com/
 
-(3)下载我们的全节点钱包运行并获取钱包地址(https://github.com/bitcoincandyofficial/bitcoincandy/files/1707921/bitcoincandy-windows-exe.zip)
+(3)下载我们的全节点钱包运行并获取钱包地址(https://github.com/bitcoincandyofficial/bitcoincandy/releases/download/0.17.2/bitcoin-qt.exe)
 
 
 
@@ -67,7 +67,7 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
  
 对于nVidia的挖矿教程可参考如下链接:
 
-[nVidia挖矿教程] (https://bitcointalk.org/index.php?topic=4466962.0)
+[nVidia挖矿教程](https://bitcointalk.org/index.php?topic=4466962.0)
 
 除了按照上述教程步骤外，挖矿选项还需要增加选项  --pers CandyPoW, 如Linux下挖矿程序运行：
 
@@ -81,7 +81,7 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
 
 [下载 Linux AMD挖矿程序](https://www.dropbox.com/s/hpvtrwpt89bgw6e/lolMiner-144_v038_Lin64.tar.gz?dl=1)
 
-[AMD挖矿教程] (https://bitcointalk.org/index.php?topic=4591317)
+[AMD挖矿教程](https://bitcointalk.org/index.php?topic=4591317)
 
 
 
@@ -99,7 +99,7 @@ There are several ways to gain your own CDY wallet address.
 (2)Download Bitpie Mobile phone wallet, open this app and change your coin to CDY(at upper-left corner), and get a CDY address.
 (download Bitpie app at http://bitpie.com/).
 
-(3)run our full node wallet and get an address.(https://github.com/bitcoincandyofficial/bitcoincandy/files/1707921/bitcoincandy-windows-exe.zip)
+(3)run our full node wallet and get an address.(https://github.com/bitcoincandyofficial/bitcoincandy/releases/download/0.17.2/bitcoin-qt.exe)
 
 
 
