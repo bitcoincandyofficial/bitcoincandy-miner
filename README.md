@@ -57,13 +57,13 @@ miner --server pool.cdy.one --user CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF.MyWorker -
 ## NVIDIA 
 
 
-[下载 Windows nVidia 挖矿程序 mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
+[下载 Windows nVidia 挖矿程序 mega](https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
 
-[下载 Linux nVidia 挖矿程序 mega] (https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
+[下载 Linux nVidia 挖矿程序 mega](https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
 
-[下载 Windows nVidia 挖矿程序 google] (https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
+[下载 Windows nVidia 挖矿程序 google](https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
 
-[下载 Linux nVidia 挖矿程序 google] (https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
+[下载 Linux nVidia 挖矿程序 google](https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
  
 对于nVidia的挖矿教程可参考如下链接:
 
@@ -141,17 +141,17 @@ Replace CPH3VKnSbSgYgyBi5gqm35phEBMDfVhnaF with your own wallet address. Then sa
 ## NVIDIA 
 
 
-[Dowload Windows nVidia miner mega] (https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
+[Dowload Windows nVidia miner mega](https://mega.nz/#F!fsAlmZQS!CwVgFfBDduQI-CbwVkUEpQ)
 
-[Dowload Linux nVidia miner mega] (https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
+[Dowload Linux nVidia miner mega](https://mega.nz/#F!3xYlSJDK!kG4kVLg1arbBuq1dd8u9aA)
 
-[Download Windows nVidia miner google] (https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
+[Download Windows nVidia miner google](https://drive.google.com/open?id=1jUhXYysli_x6MH_wQ9lY07c68Ze7WM8g)
 
-[Download Linux nVidia miner google] (https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
+[Download Linux nVidia miner google](https://drive.google.com/open?id=1anfDRDVc_Fs_NceuZNuDK8HWZgcCdM3A)
  
 Use following instruction to start:
 
-[nVidia Tutorial] (https://bitcointalk.org/index.php?topic=4466962.0)
+[nVidia Tutorial](https://bitcointalk.org/index.php?topic=4466962.0)
 
 Besides following the tutorial above， to mine CDY， you need add a extra mining option: --pers CandyPoW 
 For example, to mine CDY under Linux, you can run following command line:
