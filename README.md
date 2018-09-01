@@ -16,13 +16,10 @@
 
 2. 根据你电脑型号选择合适的挖矿程序(升级Equihash 144.5后，请使用旧挖矿客户端的用户及时下载以下新客户端)
 
-[下载 Windows  nVidia 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5_miner_v0.5_cuda_8.rar)
+[下载 Windows  nVidia 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/windows-Equihash_144_5-miner-nVidia.zip)
 
-[下载 Linux  nVidia 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5_cuda_8.tar.gz)
+[下载 Linux  nVidia 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5.tar.gz)
 
-[下载 Windows  AMD 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5_miner_v0.5.rar)
-
-[下载 Linux  AMD 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5.tar.gz)
 
 
 3.使用步骤1中获取的钱包地址替换挖矿脚本程序中的钱包地址，运行挖矿程序一般运行脚本程序(windows下run.bat或linux下mine.sh)  
@@ -34,10 +31,10 @@ miner  --algo 144_5 --pers CandyPoW  --server pool.cdy.one --port 3857 --user CS
 请将CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU替换为自己的CDY钱包地址，修改后直击双击脚本运行即可。
 
 
-注意：windows系统下如果要直接运行“.exe”程序，N卡请在“miner.cfg”文件中修改钱包地址(矿池地址，端口号使用默认即可)，A卡则是修改config.txt。
+注意：windows系统下如果要直接运行“.exe”程序，部分使用旧驱动的nVidia可尝试使用以下版本客户端。
 
-
-
+[下载 Windows  nVidia cuda8 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/windows-Equihash_144_5-miner-nVidia-cuda%208.zip)
+[下载 Linux  nVidia cuda8 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5_cuda_8.tar.gz)
 4.注意
 
 (1)请根据您电脑的型号选择正确的版本.
@@ -76,13 +73,10 @@ There are several ways to gain your own CDY wallet address.
 
 2. Choose the right edition miner program to download according your computer （upgraded as Equihash 144.5）
 
-[Download Windows CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5_miner_v0.5_cuda_8.rar)
+[Download Windows CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/windows-Equihash_144_5-miner-nVidia.zip)
 
-[Download Linux CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5_cuda_8.tar.gz)
+[Download Linux CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5.tar.gz)
 
-[Download Windows CDY AMD Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5_miner_v0.5.rar)
-
-[Download Linux CDY AMD Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5.tar.gz)
 
 
 3.Replace the wallet address in your miner's script(for windows, it's run.bat; for linux, it's mine.sh) with the address you acquire at step 1.
@@ -90,6 +84,7 @@ There are several ways to gain your own CDY wallet address.
 e.g, in run.bat: miner  --algo 144_5 --pers CandyPoW  --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
 Replace CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU with your own wallet address. Then save the file and double-click to run it.
+
 
 
 4.notice
@@ -101,6 +96,11 @@ Replace CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU with your own wallet address. Then sa
 (3)Some anti-virus software will consider the miner program as a virus.You should add the software to whitelist or turn off the anti-virus software first.
 
 (4)Open your miner by command line in your current directory when encountering a problem and you are not sure what it is.
+
+(5)other download for those use nVidia cuda 8:
+[Download Windows CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/windows-Equihash_144_5-miner-nVidia-cuda%208.zip)
+
+[Download Linux CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5_cuda_8.tar.gz)
 
 
 
