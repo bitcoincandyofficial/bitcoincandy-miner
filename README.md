@@ -28,7 +28,19 @@
 [下载 Linux  nVidia cuda8 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5_cuda_8.tar.gz)
 
 
-3.使用步骤1中获取的钱包地址替换挖矿脚本程序中的钱包地址，运行挖矿程序一般运行脚本程序(windows下run.bat或linux下mine.sh)  
+AMD显卡使用以下版本客户端。
+
+[下载 Windows  AMD 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/AMD_lolMiner_v043b_Win64.zip)
+
+[下载 Linux  AMD 挖矿程序](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/AMD_lolMiner_v043b_Lin64.tar.gz)
+
+
+3.使用步骤1中获取的钱包地址替换挖矿脚本程序中的钱包地址
+
+
+(1)Windows客户端
+
+运行挖矿程序一般运行脚本程序(windows下run.bat或linux下mine.sh)  
 如脚本run.bat中
 
 miner  --algo 144_5 --pers CandyPoW  --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
@@ -38,6 +50,22 @@ miner  --algo 144_5 --pers CandyPoW  --server pool.cdy.one --port 3857 --user CS
 
 
 [nVidia挖矿教程](https://bitcointalk.org/index.php?topic=4466962.0)
+
+
+
+
+
+(2)对于AMD挖矿客户端：
+
+替换user_config.json 中的USER选项为自己的钱包地址
+
+"USER" : "CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.lolMiner",
+ 
+ 
+ windows 双击run_miner.bat运行
+ 
+ linux 下运行run_miner.sh
+ 
 
 
 4.注意
@@ -88,7 +116,21 @@ For those with cuda 8, use the folllowing miner:
 
 [Download Linux CDY nVidia Miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/EWBF_Equihash_144_5miner_v0.5_cuda_8.tar.gz)
 
-3.Replace the wallet address in your miner's script(for windows, it's run.bat; for linux, it's mine.sh) with the address you acquire at step 1.
+
+For AMD graphic cards:
+
+[Download Windows  AMD miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/AMD_lolMiner_v043b_Win64.zip)
+
+[Download Linux  AMD miner](https://github.com/bitcoincandyofficial/bitcoincandy-miner/raw/master/AMD_lolMiner_v043b_Lin64.tar.gz)
+
+
+
+
+3.
+
+(1)Nvidia miners
+
+Replace the wallet address in your miner's script(for windows, it's run.bat; for linux, it's mine.sh) with the address you acquire at step 1.
 
 e.g, in run.bat: miner  --algo 144_5 --pers CandyPoW  --server pool.cdy.one --port 3857 --user CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.myworker --pass x
 
@@ -96,6 +138,20 @@ Replace CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU with your own wallet address. Then sa
 
 
 [nVidia Tutorial](https://bitcointalk.org/index.php?topic=4466962.0)
+
+
+(2)AMD miners
+
+Firstly, modify "USER" option in user_config.json 
+
+"USER" : "CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU.lolMiner",
+ 
+replace CSZnk6KoMoEwHmveF3KcyRfEWsZfZ3dgEU with your own wallet address.
+
+ 
+Next, double click run_miner.bat for windows; For linux, run run_miner.sh
+ 
+
 
 
 4.notice
